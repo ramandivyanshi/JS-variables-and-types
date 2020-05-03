@@ -8,6 +8,29 @@
     * [ ] Sub
     * [ ] Mul
     * [ ] Div
+    // let choice=1,2,3,4;
+    prompt("enter your choice",);
+    if (choice==1){
+    function add(x,y)
+    { return x+y;}
+     let sum= add(5,3);
+    console.log(sum);}
+    else if(choice==2){
+    function sub(x,y)
+    { return x-y;}
+     let diff= sub(5,3);
+    console.log(diff);}
+    else if(choice==3){
+    function mul(x,y)
+    { return x*y;}
+     let pro= mul(5,3);
+    console.log(pro);}
+    else
+    function div(x,y)
+    { return x+y;}
+     let ratio= div(5,3);
+    console.log(ratio);
+     
 
 2. 🎖Write a if else statement which checks if the status is single `console.log` the message `John is single` or else `John is married`
 ```js
